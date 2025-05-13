@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.895067135,
+          -26.674870087
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "cate": "Autoridade portuaria",
+        "nome": "Techobanine",
+        "descricao": "Autoridade portuaria localizada em Matutuine ,Moçambique"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.942704211,
+          -26.260970756
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "cate": "Atração turistica",
+        "nome": "Crocodile Rock",
+        "descricao": "Ponto de interresse turistico onde pode se observar a predra com forma de crocodilo."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.960089096,
+          -26.110178487
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "cate": "Atração turistica",
+        "nome": "Ship Wreck",
+        "descricao": "Destroço de maritimo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.956138832,
+          -26.083069726
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "cate": "Praia",
+        "nome": "Machangulo",
+        "descricao": "Pria de areia fina e dunas compostos por calcarenitas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.939520617,
+          -26.257076359
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "cate": "Praia",
+        "nome": "Ponta Mucombo",
+        "descricao": "Praia de aguas cristalinas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.925495234,
+          -26.449428548
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "cate": "Praia",
+        "nome": "Ponta Milibangalala",
+        "descricao": "aguas cristalinas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.919192964,
+          -26.518141289
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "cate": "praia",
+        "nome": "Ponta Bela",
+        "descricao": "Praia de aguas fortes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.888639595,
+          -26.842211045
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "cate": "Praia",
+        "nome": "Ponta de Ouro",
+        "descricao": "Vista unica, melhores mergos"
+      }
+    }
+  ]
+}

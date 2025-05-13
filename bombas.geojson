@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.614531015,
+          -26.076359717
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "nome": "Bomba de Combustivel Auto Bas.Lda",
+        "descricao": "bombas de combustivel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.657757586,
+          -26.356388169
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "nome": "Puma Filling Station",
+        "descricao": "Bombas de Combustivel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.928282454,
+          -26.103044571
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "nome": "Dumaduma Fuel Station",
+        "descricao": "Bombas de Combustivel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.826646853,
+          -26.843785048
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "nome": "Petromoc Sasol Ponta de Ouro",
+        "descricao": "Bombas de Combustivel"
+      }
+    }
+  ]
+}

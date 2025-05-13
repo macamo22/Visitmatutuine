@@ -1,0 +1,140 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.598832768, -26.056049335
+                ]
+            },
+            "properties": {
+                "id": 1,
+                "nome": "Pswita",
+                "descricao": "Igreja Velha Apostolica"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.618821348,
+                    -26.079446222
+                ]
+            },
+            "properties": {
+                "id": 2,
+                "nome": "Masjid Safura",
+                "descricao": "Madrasta"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.589454315,
+                    -26.078238383
+                ]
+            },
+            "properties": {
+                "id": 3,
+                "nome": "MEA Catembe",
+                "descricao": "Ministerio Envagelio em Acção"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.592014128,
+                    -26.088561953
+                ]
+            },
+            "properties": {
+                "id": 4,
+                "nome": "Comunidade São José de Nsime",
+                "descricao": " Capela da Igreja Catolica"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.675108968,
+                    -26.344492508
+                ]
+            },
+            "properties": {
+                "id": 5,
+                "nome": "Paroquia de São Francisco de Sales",
+                "descricao": " Capela da Igreja Catolica"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.66307591,
+                    -26.471987876
+                ]
+            },
+            "properties": {
+                "id": 6,
+                "nome": "Igreja  Metodista Wesleyan Tomás",
+                "descricao": "Igreja Metodista Wesleyan"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.919748951,
+                    -26.110757835
+                ]
+            },
+            "properties": {
+                "id": 7,
+                "nome": "Igreja Santa Maria",
+                "descricao": "Igreja Catolica"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.881320322,
+                    -26.843785048
+                ]
+            },
+            "properties": {
+                "id": 8,
+                "nome": "Primeira Igreja Batista de Ponta de Ouro",
+                "descricao": "Igreja Batista "
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.866346763,
+                    -26.840866045
+                ]
+            },
+            "properties": {
+                "id": 9,
+                "nome": "Masjd M.Iqbal",
+                "descricao": "Madrasta"
+            }
+        }
+        
+    ]
+}

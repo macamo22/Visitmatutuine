@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Parque Nacional de Maputo",
+        "categoria": "Área de Conservação",
+        "descricao": "O Parque Nacional de Maputo é uma área protegida localizada no sul de Moçambique, com rica biodiversidade, incluindo florestas, savanas, zonas húmidas e litoral costeiro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.853576, -26.394961]
+      }
+    }
+  ]
+}

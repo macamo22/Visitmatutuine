@@ -1,0 +1,305 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.95979854,
+          -26.084050277
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "nome": "Machangulo Beach Lodge",
+        "tipo": "Lodge e Hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.950568747,
+          -26.094063224
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "nome": "BERMUGIS PLACE Restaurante boats",
+        "tipo": "Restaurante e Hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.88554371,
+          -26.781652936
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "nome": "7 Zungus Seafood Restaurante and Bar",
+        "tipo": "Restaurante e Bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.885540777,
+          -26.783757841
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "nome": "Sunset Shack",
+        "tipo": "Restaurante"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.886455154,
+          -26.785948062
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "nome": "La Familia Bar and Barbeque",
+        "tipo": "Bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.885166192,
+          -26.785982882
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "nome": "Amigos Restaurante e Bar",
+        "tipo": "Restaurante e Bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.885356787,
+          -26.786107502
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "nome": "Alex Pizza Place",
+        "tipo": "Pizzaria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.884921993,
+          -26.786464499
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "nome": "Mermaids Cove",
+        "tipo": "Restaurante"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.884980387,
+          -26.786299846
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "nome": "Crabs Snack Bar Restaurant",
+        "tipo": "Restaurante e Bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.887102644,
+          -26.78727944
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "nome": "BullShit Malongane",
+        "tipo": "Restaurante"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.887164117,
+          -26.787712494
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "nome": "Paulos Bar Grelhada",
+        "tipo": "Restaunte e Churasqueira"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.885190386,
+          -26.792044002
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "nome": "Lourencos Bar and Shop",
+        "tipo": "Restaurante"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.885490669,
+          -26.803538522
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "nome": "MoZbevok Bar and Restaurant",
+        "tipo": "Restaurante e Bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.889716337,
+          -26.802897467
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "nome": "Ninhos Restaurant and Bar",
+        "tipo": "Restaurante e Bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8847409,
+          -26.807726841
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "nome": "Captain Gus Bar and Restaurant",
+        "tipo": "Restaurante e Bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.669499076,
+          -26.348438162
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "nome": "Nosso Ambiente",
+        "tipo": "Restaurante"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.619540379,
+          -26.083551552
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "nome": "Restaurante e Bar Jupiter",
+        "tipo": "Restaurante e Bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.885947039,
+          -26.844104545
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "nome": "The Melting Port",
+        "tipo": "Restaurante"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.890230929,
+          -26.844719775
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "nome": "Ponta Restaurante",
+        "tipo": "Restaurante"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.886187257,
+          -26.848881418
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "nome": "Restaurante Barraca da Praia na Ponta do Ouro",
+        "tipo": "Restaurante"
+      }
+    }
+  ]
+}

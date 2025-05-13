@@ -1,0 +1,171 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.936663722,
+          -26.257120873
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "nome": "Mucombo Beach Camp",
+        "descricao": "acampamento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.936659912,
+          -26.25990591
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "nome": "Villa Mucombo- Exclusive Camp",
+        "descricao": "Acampamento Temporario"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.935868921,
+          -26.261265352
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "nome": "Mucombo Camp",
+        "descricao": "Acampamento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.934397599,
+          -26.261976377
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "nome": "Machangulo Camp Mozambique",
+        "descricao": "Acampamento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.895341267,
+          -26.760368427
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "nome": "Jabuliles´s Camp Wakene Beach Estate",
+        "descricao": "Acampamento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.884842524,
+          -26.782186696
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "nome": "At the Lake Camp Lagoa",
+        "descricao": "Acampamento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.876525027,
+          -26.782466099
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "nome": "Ndlelene",
+        "descricao": "Acampamento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.888010393,
+          -26.789618415
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "nome": "Parque Malongane",
+        "descricao": "Acampamento Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.885597313,
+          -26.817603579
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "nome": "Nkhosho Eco Resort",
+        "descricao": "Acampamento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.882362847,
+          -26.826118661
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "nome": "Ponto do Ouro Kuusamo",
+        "descricao": "acampamento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.89881698,
+          -26.697310476
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "nome": "Mamoli Beach Camp",
+        "descricao": "Acampamento"
+      }
+    }
+    
+  ]
+}

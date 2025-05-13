@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Matutuine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra Superior -->
+    <div class="top-bar">
+       
+    </div>
+
+    
+
+    <!-- Menu de Abas -->
+    <div class="tabs">
+        <button class="tab-button active" onclick="openTab(event, 'home')">Início</button>
+		<div class="tab-dropdown">
+    <button class="tab-button " onclick="toggleDropdownMenu('matutuineDropdown')">Matutuine ▾</button>
+    <div id="matutuineDropdown" class="dropdown-content">
+        <button class="dropdown-link" onclick="openTab(event, 'localizacao')">Localização</button>
+        <button class="dropdown-link" onclick="openTab(event, 'historia')">História</button>
+        <button class="dropdown-link" onclick="openTab(event, 'economia')">Economia</button>
+    </div>
+</div>
+	<div class="tab-dropdown">
+    <button class="tab-button" onclick="toggleDropdownMenu('mapasDropdown')">Mapas ▾</button>
+    <div id="mapasDropdown" class="dropdown-content">
+        <button class="dropdown-link" onclick="openTab(event, 'PatrimonioMunicipal')">Património Municipal</button>
+        <button class="dropdown-link" onclick="openTab(event, 'NaturezaTerra')">Natureza Terra</button>
+		<button class="dropdown-link" onclick="openTab(event, 'NaturezaMar')">Natureza Mar</button>
+        <button class="dropdown-link" onclick="openTab(event, 'Restauracao')"> Restauração</button>
+		 <button class="dropdown-link" onclick="openTab(event, 'Estadia')"> Estadia</button>
+		 <button class="dropdown-link" onclick="openTab(event, 'Sevicos')">Seviços</button>
+    </div>
+</div>
+<div class="tab-dropdown">
+<button class="tab-button" onclick="toggleDropdownMenu('sobreDropdown')">Sobre ▾</button>
+    <div id="sobreDropdown" class="dropdown-content">
+        <button class="dropdown-link" onclick="openTab(event, 'Informacoes')">Informações Matutuine</button>
+		<button class="dropdown-link" onclick="openTab(event, 'Espaço Visitante')">Espaço Visitante</button>
+		 </div>
+	 </div>
+  
+  </div>
+     <div id="home" class="tab-content active">
+        <!-- Carrossel de Imagens -->
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <div class="carousel-item">
+                    <img src="ponta.jpg" alt="Imagem 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="merl.jpg" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="gazela.jpg" alt="Imagem 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="praia.jpg" alt="Imagem 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="animal2.jpg" alt="Imagem 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="vista3.jpg" alt="Imagem 6">
+                </div>
+            </div>
+        </div>
+<!-- Conteúdo das Abas -->
+   
+
+        <br><br>
+		<div class="conteudo-texto">
+        <legend><h2 class="texto-centralizado">Bem Vindo</h2></legend>
+        <h3 class="texto-centralizado">Ao Website de Turismo do Distrito de Matutuine</h3><br><br><br><br>
+        <div class="section">
+            <h4>Descubra a essência do sul de Moçambique</h4>
+            <p>
+                Entre o azul profundo do Índico e a serenidade das paisagens verdes, Matutuíne é um convite à descoberta. Aqui, o tempo ganha outro ritmo — mais leve, mais livre. Cada canto deste distrito guarda experiências únicas, onde a natureza, a cultura e a hospitalidade se encontram em perfeita harmonia. <br><br>
+
+                Seja bem-vindo ao Visit Matutuíne, o seu portal para explorar praias deslumbrantes, trilhas selvagens, sabores autênticos, tradições vivas e aventuras inesquecíveis. <br><br>
+  </p>
+  <p class="texto-centralizado">
+                Natureza intocada <br><br>
+                Praias de sonho <br><br>
+                Cultura vibrante <br><br>
+                Vida selvagem única <br><br>
+                Gastronomia com alma <br><br>
+                Aventura em cada detalhe <br><br>
+
+                Descubra Matutuíne do seu jeito. Em cada aba, um novo fascínio. Em cada visita, uma nova história. <br><br>
+            </p>
+        </div>
+    </div>
+	</div>
+
+    <div id="novaAba" class="tab-content">
+        
+
+        <!-- Conteúdo das Sub-Abas -->
+        <div id="info" class="sub-tab-content active">
+            <p>Informações sobre a localização de Matutuine.</p>
+        </div>
+        <div id="galeria" class="sub-tab-content">
+            <p>Galeria de imagens do distrito.</p>
+        </div>
+        <div id="contato" class="sub-tab-content">
+            <p>Informações turísticas sobre Matutuine.</p>
+        </div>
+    </div>
+
+    <div id="mapa" class="tab-content">
+        <h2>Mapa Interativo</h2>
+        <div id="map" style="height: 400px;"></div>
+    </div>
+
+    <div id="sobre" class="tab-content">
+        <h2 style="font-size: 28px;">Sobre o Projeto</h2>
+        <p style="font-size: 20px;">Este WebSIG ajuda a promover o turismo com mapas interativos.</p>
+    </div>
+
+    <script src="script.js"></script>
+	<div id="localizacao" class="tab-content">
+	<img src="matutuine.stv_.jpg" alt="Mapa de Matutuine"
+     style="width: 100vw; height: 300px; object-fit: cover; display: block;">
+	 <div class="conteudo-texto">
+    <h4>Matutuine</h4>
+    <p>Situado no coração do sul de Moçambique, Matutuíne é um destino que vai além do imaginável. Este encantador distrito faz parte da província de Maputo e
+	é abraçado pelo Oceano Índico a oeste, oferecendo uma combinação única de paisagens costeiras e áreas naturais exuberantes.<br><br>
+	Em Matutuine, o mar encontra a terra, as trilhas se cruzam com a história e
+	a cultura local nos envolve em cada esquina. Onde quer que esteja, a beleza natural de Matutuine estará sempre a poucos passos de distância.<br><br></p>
+	<h4>Como chega</h4>
+	<h5>Maputo:</h5> 
+	<p>A viagem até Matutuine é feita por estrada, seguindo pela estrada nacional EN1,
+	e pode ser realizada de carro, táxi ou transporte coletivo.<br><br></p>
+	<h5>Aeroporto mais próximo:</h5> 
+	<p> O Aeroporto Internacional de Maputo é o principal ponto de chegada para turistas internacionais. 
+	De lá, o acesso a Matutuíne é rápido e confortável.
+	</p>
+</div>
+</div>
+
+<div id="historia" class="tab-content">
+<section class="historia">
+  <div class="historia-grid">
+    <img src="antj.png" alt="Dança Timbila">
+    <img src="velhos.jpg" alt="Cerimónia cultural">
+	<img src="salamanja.jpg" alt="Dança Timbila">
+    
+  </div>
+</section>
+<div class="conteudo-texto">
+    <h4>História de Matutuine</h4>
+    <p>A história de Matutuíne é profundamente ligada à terra, à natureza e às comunidades que nela habitam há séculos. Localizado no extremo sul de Moçambique, o distrito é habitado, principalmente, pelo povo ronga, um grupo com raízes ancestrais profundas e uma rica herança cultural que se mantém viva até hoje.<br><br>
+	Durante muito tempo, Matutuíne foi um território de caça, pesca e agricultura de subsistência, onde as práticas tradicionais respeitavam os ciclos da natureza. As suas paisagens que vão desde florestas e savanas até praias e rios sempre foram vistas como sagradas, alimentando não só o corpo, mas também o espírito das suas gentes.<br><br>
+	Com a chegada dos colonizadores portugueses, Matutuíne tornou-se palco de resistência, adaptação e transformação. Apesar das tentativas de dominação, as comunidades locais preservaram suas línguas, crenças e modos de vida, transmitidos de geração em geração.<br><br>
+	Após a independência de Moçambique, em 1975, Matutuíne começou a revalorizar ainda mais o seu patrimônio histórico e cultural, investindo na preservação das tradições e na promoção do turismo sustentável. Hoje, visitar Matutuíne é também fazer uma viagem no tempo onde histórias orais, danças tradicionais, ruínas antigas e o modo de vida local ajudam a compreender a alma do distrito.<br><br>
+</p>
+	<h5 class="texto-centralizado">Matutuíne não é apenas um lugar no mapa é um território de memória, identidade e vida.</h5>
+</div>
+</div>
+
+<div id="economia" class="tab-content">
+<div class="conteudo-texto">
+    <h4>Economia de Matutuíne</h4>
+ 
+	<div class="lado-a-lado">
+  <img src="mac.png" alt="Imagem"><br><br>
+  <div class="texto">
+    <p>A economia de Matutuíne é marcada por uma forte ligação com a terra e os recursos naturais. 
+	A agricultura de subsistência ainda é a principal atividade para muitas famílias, com destaque para o cultivo de mandioca, milho, amendoim e feijão. 
+	Nos campos e nas margens dos rios, o trabalho é feito com dedicação e sabedoria herdada de gerações.<br><br></p>
+	</div>
+</div>
+	<div class="lado-a-lado">
+  <img src="pescador.png" alt="Imagem"><br><br>
+  <div class="texto">
+	<p>A pesca artesanal também desempenha um papel importante, especialmente nas comunidades costeiras, 
+	onde o oceano oferece peixe fresco que alimenta famílias e abastece os mercados locais.Nos últimos anos, 
+	o turismo sustentável tem ganhado destaque como uma oportunidade promissora para diversificar a economia. 
+A beleza natural do distrito, as suas praias intocadas, a fauna rica e a cultura viva têm atraído visitantes nacionais e estrangeiros, 
+o que abre portas para pequenos negócios, hospedagens comunitárias e iniciativas culturais..<br><br>
+Além disso, Matutuíne possui potencial para o ecoturismo, agricultura ecológica e artesanato tradicional caminhos que unem desenvolvimento económico com respeito à natureza e às tradições locais.<br><br>
+</p>
+</div>
+</div>
+
+	<h5 class="texto-centralizado">Matutuíne cresce com os pés na terra, o olhar no futuro e o coração na sua identidade.</h5> 
+</div>
+</div>
+<div id="PatrimonioMunicipal" class="tab-content">
+<div class="conteudo-texto">
+ <p>Matutuíne é um palco vivo de expressões culturais. Danças, músicas, 
+ tradições orais e artefatos contam histórias que atravessam gerações. Nesta seção, explore os pontos culturais que dão alma ao distrito.</p>
+ <iframe src="patrimonio.html" style="width: 100%; height: 600px; border: none;"></iframe>
+</div>
+</div>
+<div id="NaturezaTerra" class="tab-content">
+<div class="conteudo-texto">
+<p>Das florestas aos trilhos secretos, Matutuíne é um convite para quem busca conexão com a terra. 
+ Descubra os espaços verdes que guardam biodiversidade e paz.</p>
+ </div>
+<section class="NaturezaTerra">
+  <div class="NaturezaTerra-grid">
+    <img src="anime.jpg" alt="Dança Timbila">
+    <img src="percurso.jpg" alt="Cerimónia cultural">
+	<img src="Elephant.jpg" alt="Dança Timbila">
+    
+  </div>
+</section>
+<iframe src="terra.html" style="width: 100%; height: 600px; border: none;"></iframe>
+</div>
+<div id="NaturezaMar" class="tab-content">
+<img src="mar2.jpg" alt="Mapa de Matutuine"
+     style="width: 100vw; height: 300px; object-fit: cover; display: block;"><br>
+	 <div class="conteudo-texto">
+ <p>Com praias intocadas e águas ricas em vida, a costa de Matutuíne é um tesouro por explorar. Ideal para mergulho, lazer e contemplação.</p>
+</div>
+<iframe src="costa.html" style="width: 100%; height: 600px; border: none;"></iframe>
+</div>
+<div id="Restauracao" class="tab-content">
+<div class="NaturezaTerra-grid">
+    <img src="restaurante.jpg" alt="Dança Timbila">
+    <img src="restaurante2.jpg" alt="Dança Timbila">
+    
+  </div>
+  <div class="conteudo-texto">
+ <p>O sabor de Matutuíne é uma viagem à parte. Conheça os pontos onde se servem pratos típicos com o tempero da terra e a simpatia do povo.</p>
+</div>
+<iframe src="restauracao.html" style="width: 100%; height: 600px; border: none;"></iframe>
+</div>
+<div id="Estadia" class="tab-content">
+<div class="conteudo-texto">
+ <p>Seja em casas locais, eco-lodges ou zonas de acampamento, Matutuíne oferece estadias acolhedoras para quem quer descansar com autenticidade.</p>
+ <iframe src="estadia.html" style="width: 100%; height: 600px; border: none;"></iframe>
+</div>
+</div>
+<div id="Sevicos" class="tab-content">
+<div class="conteudo-texto">
+ <p>Matutuíne também se encontra nos espaços de convívio. Descubra praças, mercados e campos que movimentam a vida comunitária.</p>
+</div>
+<iframe src="servicos.html" style="width: 100%; height: 600px; border: none;"></iframe>
+</div>
+<div id="Informacoes" class="tab-content">
+<div class="conteudo-texto">
+  <h2 class="texto-centralizado">Informações Meteorológicas</h2>
+  </div>
+  <iframe
+    src="https://forecast7.com/pt/26d02n32d58/matutuine/?unit=us"
+    frameborder="0"
+    width="100%"
+    height="250"
+    style="border:0; overflow:hidden;"
+    allowtransparency="true"
+    scrolling="no">
+  </iframe>
+</div>
+<div id="Espaço Visitante" class="tab-content">
+<div class="conteudo-texto">
+ <p>nn</p>
+ </div>
+</div>
+
+</section>
+
+</body>
+</html>
+
+

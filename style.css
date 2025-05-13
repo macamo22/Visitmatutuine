@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estiliza o menu de abas */
+/* Barra azul das Abas */
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007bff;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+.tab-button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+}
+.tab-button.active, .dropdown-link.active {
+    border-bottom: 3px solid yellow;
+    font-weight: bold;
+    color: #ff0; /* amarelo no texto também se quiser */
+}
+    border-bottom: 3px solid yellow;
+}
+
+/* Esconde os conteúdos inicialmente */
+.tab-content {
+    display: none;
+    padding: 0; /* 🔥 tira o espaço */
+    background-color: #ffffff;
+}
+.conteudo-texto {
+    padding: 20px; /* 👈 Espaço interno apenas para os textos */
+}
+/* Mostra a aba ativa */
+.tab-content.active {
+    display: block;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.sidebar {
+    position: fixed;
+    left: -250px;
+    top: 50px;
+    width: 250px;
+    height: 100%;
+    background: #f4f4f4;
+    padding: 10px;
+    transition: left 0.3s ease-in-out;
+}
+
+.sidebar.show {
+    left: 0;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* 🔥 importante para alinhar verticalmente */
+    background-color: #0077b6;
+    color: white;
+    padding: 0 10px; /* espaço só nos lados */
+    height: 50px; /* altura fixa */
+    margin: 0; /* 🔥 elimina espaços desnecessários */
+}
+
+#toggle-sidebar {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* criar container de imagens e automatizar */
+/* Carrossel */
+.carousel-container {
+  width: 100vw;
+  height: 400px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 1s ease;
+}
+
+.carousel-item {
+  min-width: 100vw;
+  height: 400px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.texto-centralizado {
+    text-align: center;
+}
+ /*textos das Sub-Abas*/
+.sub-tab-button {
+    font-size: 16px; /* Aumenta para 16px ou mais se quiser */
+    padding: 10px 16px;
+}
+ /*Conteúdo das Sub-Abas*/
+
+.sub-tab-content {
+    font-size: 18px; /* Tamanho do texto do conteúdo */
+    line-height: 1.6; /* Espaçamento entre linhas para facilitar a leitura */
+}
+/*Se para <h2> ou <h1> nas abas:*/
+
+.tab-content h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+/* definir um tamanho base para todo o site:*/
+
+body {
+    font-size: 17px;
+}
+.tab-content h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.tab-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.tab-content h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+	color: #C0C0C0;
+}
+.tab-content h5{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/* ilusao de nova pagina*/
+.section {
+    padding: 40px 20px;
+    border-top: 5px solid #007bff;
+}
+/* sub abas*/
+.tab-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+.dropdown-link {
+    background: none;
+    border: none;
+    padding: 10px 16px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dropdown-link:hover {
+    background-color: #f0f0f0;
+}
+/* para fotos lado a lado */
+.lado-a-lado {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap; /* Garante que fique bonito no mobile */
+}
+
+.lado-a-lado img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	margin-bottom: 40px;
+}
+
+.lado-a-lado .texto {
+    flex: 1;
+}
+
+.historia-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.historia-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.NaturezaTerra-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.NaturezaTerra-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+/* Melhorar o dropdown */
+.dropdown-content {
+  margin-top: 8px; /* espaço entre botão e lista */
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  padding: 10px 0;
+}
+

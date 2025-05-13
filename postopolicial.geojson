@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.884793648,
+          -26.841485382
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "nome": "Posto Policial",
+        "descricao": "Localizado na Ponta do Ouro"
+      }
+    }
+  ]
+}

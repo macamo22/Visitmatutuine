@@ -1,0 +1,1145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.890375308,
+          -26.854734809
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "nome": "Ponta Aaccommodation",
+        "descricao": "lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.889665685,
+          -26.855365021
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "nome": "Casa Buvane Farol T2",
+        "descricao": "Casa tipo 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.889582717,
+          -26.854670025
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "nome": "Acomodação ponta",
+        "descricao": "casa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.88272388,
+          -26.855065595
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "nome": "Te firts house accommodation",
+        "descricao": "lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.885513148,
+          -26.854143872
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "nome": "Ponta Apart hotel",
+        "descricao": "hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.887783432,
+          -26.853313741
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "nome": "gala gala  eco resort",
+        "descricao": "resorte"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.880165689,
+          -26.85314537
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "nome": "Villa grande hotel",
+        "descricao": "hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.885363022,
+          -26.850539522
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "nome": "Farol Dourado",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.886325667,
+          -26.850001465
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "nome": "Buluwua",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.888754093,
+          -26.850003588
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "nome": "Carlos Self Catering",
+        "descricao": "lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.888863551,
+          -26.851084417
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "nome": "Ponta huis",
+        "descricao": "lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.89266284,
+          -26.851223117
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "nome": "Baleia a Vista",
+        "descricao": "hotel 3 star"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.89293199,
+          -26.850321563
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "nome": "Baleia Vista homes",
+        "descricao": "casas da baleia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.889545413,
+          -26.849064046
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "nome": "gamboozini lodge",
+        "descricao": "lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.889224443,
+          -26.848782866
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "nome": "Casa paraiso holiday accommodation",
+        "descricao": "Resorte"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.888826007,
+          -26.847304065
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "nome": "Sua Casa",
+        "descricao": "lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.889224972,
+          -26.846511227
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "nome": "ntsuty-Cottage at Ponta",
+        "descricao": "hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.890873388,
+          -26.846921167
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "nome": "15 Mar e Sol",
+        "descricao": "lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.89004672,
+          -26.846757284
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "nome": "Ocean View Ponta",
+        "descricao": "lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.891153342,
+          -26.846588066
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "nome": "Mar e Sol Complex",
+        "descricao": "lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.879000083,
+          -26.850838296
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "nome": "Palms Lodge",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.878380804,
+          -26.850024607
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "nome": "Khensane  Lodge",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.872765645,
+          -26.847291237
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "nome": "Ponta Sunset View",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.855450349,
+          -26.84786786
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "nome": "Tembe  Lodge",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.877307784,
+          -26.840897606
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "nome": "Krymas Accommodation",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.877549188,
+          -26.842226577
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "nome": "Young guest house",
+        "descricao": "guest house"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.882396432,
+          -26.849777593
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "nome": "Stress Zero Camp",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.882051746,
+          -26.847239737
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "nome": "green hill lodge",
+        "descricao": "lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.885633425,
+          -26.848412845
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "nome": "Casa Ilha Azul",
+        "descricao": "lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.885951723,
+          -26.848066505
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "nome": "Moonstone  Lodge",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.885537358,
+          -26.845501388
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "nome": "Casa do Farol",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.887061131,
+          -26.841814232
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "nome": "Ponta Mar Resort",
+        "descricao": "hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.886105585,
+          -26.842678081
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "nome": "Casa Ponta",
+        "descricao": "hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.960181487,
+          -26.08372927
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "nome": "Machanulo Beach  Lodge",
+        "descricao": "hotel 4 estrelas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.957957042,
+          -26.084601609
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "nome": "Villa Robal",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9565576,
+          -26.083921989
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "nome": "Cabo Beach Villas",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.953163335,
+          -26.083634147
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "nome": "Camp Carlos",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.953200054,
+          -26.088126311
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "nome": "Balistidae at Nhoxani",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.952718416,
+          -26.088616611
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "nome": "Casa Karibu",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.952523331,
+          -26.089154844
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "nome": "Deck house Mozambique",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.952318595,
+          -26.089603895
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "nome": "Nhgoxani Beach Villas",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.936494742,
+          -26.098120232
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "nome": "Nkayezi Chalets",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.957349201,
+          -26.10985198
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "nome": "Vista Abril",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.955109791,
+          -26.119782723
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "nome": "Colina Verde",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.956718722,
+          -26.117648011
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "nome": "Leatherback Beach Villa",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.948921672,
+          -26.141475273
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "nome": "The Monarch Villa",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.94814319,
+          -26.157011292
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "nome": "Loggerhead Beach Villa",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.93932158,
+          -26.230135126
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "nome": "Machangulo Beach Villa",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.938664354,
+          -26.235017453
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "nome": "Villa Dugongo",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.931136308,
+          -26.349495608
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "nome": "Anvil Bay",
+        "descricao": "hotel 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.919273116,
+          -26.400249287
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "nome": "Ponta Membene",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.67810462,
+          -26.3439316
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "nome": "Vista Bela guest house",
+        "descricao": "guest house"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.677520504,
+          -26.345181349
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "nome": "Quinta Mila",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.664353047,
+          -26.351444361
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "nome": "Mvelasse guest house",
+        "descricao": "guest house"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.667202812,
+          -26.34449712
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "nome": "Madlanduna house",
+        "descricao": "guest house"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.895282024,
+          -26.678009217
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "nome": "Mar das Borboletas",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.895403726,
+          -26.67835407
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "nome": "Moya Eco Lodge",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.899630609,
+          -26.708088219
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "nome": "Baleia Azul 11",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.900938184,
+          -26.708659471
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "nome": "White Pearl Resort Ponta Mamoli",
+        "descricao": "hotel 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.900756683,
+          -26.722338953
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "nome": "Villa de golfino",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.900028002,
+          -26.722725646
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "nome": "Mamoli Beach Estate",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.899581826,
+          -26.725445072
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "nome": "aloha 10",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.899020309,
+          -26.726863942
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "nome": "Aloha 15 Bluefootprints",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.89998458,
+          -26.726985783
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "nome": "Aloha No.1",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.899707668,
+          -26.729806908
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "nome": "Blue Waves",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.899500291,
+          -26.730343196
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "nome": "Serenity Villa",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.899118767,
+          -26.732907407
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "nome": "Baleia Azul 26",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.899107383,
+          -26.73321878
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "nome": "Ponta Mamoli Summer´s Apartments",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.897003154,
+          -26.73335016
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "nome": "casa Sorte",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.891151681,
+          -26.795829661
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "nome": "Ponta Malongane Dive Camp",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.889798587,
+          -26.795463031
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "nome": "Ponta Malongane Accommodation",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.88509586,
+          -26.79878376
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "nome": "Sky Island Resort",
+        "descricao": "hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.951254116,
+          -26.09263552
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "nome": "Casa de Paz",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.61306723,
+          -26.05433233
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "nome": "hotel senyum",
+        "descricao": "hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.620369877,
+          -26.060961308
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "nome": "Massala Mar",
+        "descricao": "Lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.639274307,
+          -26.093525566
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "nome": "Moony´s Chalets",
+        "descricao": "Resort"
+      }
+    }
+  ]
+}

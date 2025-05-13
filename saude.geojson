@@ -1,0 +1,405 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7542,
+          -26.8083
+        ]
+      },
+      "properties": {
+        "1": 1440,
+        "cc": 13,
+        "cd": 1,
+        "cp": 10,
+        "ct": 1100168,
+        "id": 1,
+        "us": "Dzovo",
+        "cmb": "1100168",
+        "cne": "NU-002",
+        "lat": -26.8083,
+        "lon": 32.7542,
+        "cuus": "US-MOZ-01440",
+        "nome": "Centro de Saude Dzowo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2852,
+          -26.84
+        ]
+      },
+      "properties": {
+        "1": 1514,
+        "cc": 12,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100608,
+        "id": 2,
+        "us": "Catuane",
+        "cmb": "1100608",
+        "cne": "NU-007",
+        "lat": -26.84,
+        "lon": 32.2852,
+        "cuus": "US-MOZ-01515",
+        "nome": "Centro de Saude Rural II de Catuane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6189,
+          -26.3684
+        ]
+      },
+      "properties": {
+        "1": 1515,
+        "cc": 12,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100609,
+        "id": 3,
+        "us": "Mabilibili",
+        "cmb": "1100609",
+        "cne": "NU-007",
+        "lat": -26.3684,
+        "lon": 32.6189,
+        "cuus": "US-MOZ-01516",
+        "nome": "Centro de Saude de Mabilibili"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8839,
+          -26.8372
+        ]
+      },
+      "properties": {
+        "1": 1516,
+        "cc": 12,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100611,
+        "id": 4,
+        "us": "Ponta Do Ouro",
+        "cmb": "1100611",
+        "cne": "NU-007",
+        "lat": -26.8372,
+        "lon": 32.8839,
+        "cuus": "US-MOZ-01517",
+        "nome": "Centro de Saude da Ponta de Ouro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6511,
+          -26.4745
+        ]
+      },
+      "properties": {
+        "1": 1517,
+        "cc": 12,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100612,
+        "id": 5,
+        "us": "Salamanga",
+        "cmb": "1100612",
+        "cne": "NU-007",
+        "lat": -26.4745,
+        "lon": 32.6511,
+        "cuus": "US-MOZ-01518",
+        "nome": "Centro de Saude de Salamanga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8267,
+          -26.7508
+        ]
+      },
+      "properties": {
+        "1": 1518,
+        "cc": 12,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100613,
+        "id": 6,
+        "us": "Zitundo",
+        "cmb": "1100613",
+        "cne": "NU-007",
+        "lat": -26.7508,
+        "lon": 32.8267,
+        "cuus": "US-MOZ-01519",
+        "nome": "Centro de Saude Rural II de Zitundo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4158,
+          -26.3281
+        ]
+      },
+      "properties": {
+        "1": 1519,
+        "cc": 12,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100614,
+        "id": 7,
+        "us": "Hindane",
+        "cmb": "1100614",
+        "cne": "NU-007",
+        "lat": -26.3281,
+        "lon": 32.4158,
+        "cuus": "US-MOZ-01520",
+        "nome": "Centro de Saude de Hindane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.416667,
+          -26.816667
+        ]
+      },
+      "properties": {
+        "1": 1520,
+        "cc": 12,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100659,
+        "id": 8,
+        "us": "Gueveza",
+        "cmb": "1100659",
+        "cne": "NU-007",
+        "lat": -26.816667,
+        "lon": 32.416667,
+        "cuus": "US-MOZ-01521",
+        "nome": "Centro de Saude Gueveza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.537239,
+          -26.601813
+        ]
+      },
+      "properties": {
+        "1": 1522,
+        "cc": 12,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100663,
+        "id": 9,
+        "us": "Mungazine",
+        "cmb": "1100663",
+        "cne": "NU-007",
+        "lat": -26.601813,
+        "lon": 32.537239,
+        "cuus": "US-MOZ-01523",
+        "nome": "Centro de Saude de Mungazine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8858,
+          -26.2156
+        ]
+      },
+      "properties": {
+        "1": 1523,
+        "cc": 12,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100669,
+        "id": 10,
+        "us": "Ndelane",
+        "cmb": "1100669",
+        "cne": "NU-007",
+        "lat": -26.2156,
+        "lon": 32.8858,
+        "cuus": "US-MOZ-01524",
+        "nome": "Centro de Saude de Ndelane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.537112,
+          -26.602018
+        ]
+      },
+      "properties": {
+        "1": 1524,
+        "cc": 12,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100670,
+        "id": 11,
+        "us": "Santa Maria",
+        "cmb": "1100670",
+        "cne": "NU-007",
+        "lat": -26.602018,
+        "lon": 32.537112,
+        "cuus": "US-MOZ-01525",
+        "nome": "Centro de Saude de Santa Maria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.1823,
+          -26.672
+        ]
+      },
+      "properties": {
+        "1": 1525,
+        "cc": 13,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100671,
+        "id": 12,
+        "us": "Manhangane",
+        "cmb": "1100671",
+        "cne": "NU-007",
+        "lat": -26.672,
+        "lon": 32.1823,
+        "cuus": "US-MOZ-01526",
+        "nome": "Centro de Saude de Manhangane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6245,
+          -26.0855
+        ]
+      },
+      "properties": {
+        "1": 1526,
+        "cc": 12,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100660,
+        "id": 13,
+        "us": "Nsine",
+        "cmb": "1100660",
+        "cne": "NU-007",
+        "lat": -26.0855,
+        "lon": 32.6245,
+        "cuus": "US-MOZ-01527",
+        "nome": "Centro de Saude de Nsine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.933484,
+          -26.191599
+        ]
+      },
+      "properties": {
+        "1": 1527,
+        "cc": 12,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100661,
+        "id": 14,
+        "us": "Machangulo",
+        "cmb": "011006?",
+        "cne": "NU-007",
+        "lat": -26.191599,
+        "lon": 32.933484,
+        "cuus": "US-MOZ-01528",
+        "nome": "Centro de Saude de Machangulo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.574722,
+          -26.488333
+        ]
+      },
+      "properties": {
+        "1": 1528,
+        "cc": 13,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100662,
+        "id": 15,
+        "us": "Inonganine",
+        "cmb": "011006?",
+        "cne": "NU-007",
+        "lat": -26.488333,
+        "lon": 32.574722,
+        "cuus": "US-MOZ-01529",
+        "nome": "Centro de Saude de Inonganine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.1783,
+          -26.6733
+        ]
+      },
+      "properties": {
+        "1": 1529,
+        "cc": 13,
+        "cd": 6,
+        "cp": 10,
+        "ct": 1100671,
+        "id": 16,
+        "us": "Manhangane",
+        "cmb": "011006?",
+        "cne": "NU-007",
+        "lat": -26.6733,
+        "lon": 32.1783,
+        "cuus": "US-MOZ-01530",
+        "nome": "Centro de Saude de Manhangane"
+      }
+    }
+  ]
+}
