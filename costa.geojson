@@ -61,8 +61,8 @@
       "properties": {
         "id": 4,
         "cate": "Praia",
-        "nome": "Machangulo",
-        "descricao": "Pria de areia fina e dunas compostos por calcarenitas"
+        "nome": " Ponta Malongane",
+        "descricao": " Ambiente calmo, frequentado por moradores locais. Ótima para banhos e descanso. Ponto menos turístico, mas muito autêntico."
       }
     },
     {
@@ -78,7 +78,7 @@
         "id": 5,
         "cate": "Praia",
         "nome": "Ponta Mucombo",
-        "descricao": "Praia de aguas cristalinas"
+        "descricao": " Área rica em biodiversidade marinha. Observação frequente de golfinhos e baleias. Boa para ecoturismo e mergulho."
       }
     },
     {
@@ -94,7 +94,7 @@
         "id": 6,
         "cate": "Praia",
         "nome": "Ponta Milibangalala",
-        "descricao": "aguas cristalinas"
+        "descricao": " Pequena enseada com areias finas e paisagens deslumbrantes. Ideal para piqueniques e caminhadas ao entardecer. Um tesouro escondido."
       }
     },
     {
@@ -110,7 +110,7 @@
         "id": 7,
         "cate": "praia",
         "nome": "Ponta Bela",
-        "descricao": "Praia de aguas fortes"
+        "descricao": " Ambiente calmo, frequentado por moradores locais. Ótima para banhos e descanso. Ponto menos turístico, mas muito autêntico."
       }
     },
     {
@@ -126,7 +126,7 @@
         "id": 8,
         "cate": "Praia",
         "nome": "Ponta de Ouro",
-        "descricao": "Vista unica, melhores mergos"
+        "descricao": "Uma das praias mais famosas de Moçambique, ideal para mergulho com golfinhos e passeios de barco. Ambiente vibrante, com várias opções de alojamento e restauração.  "
       }
     }
   ]
