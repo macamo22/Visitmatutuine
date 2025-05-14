@@ -9,11 +9,11 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Carrega GeoJSON
-fetch('saude.geojson')
+fetch('postopolicial.geojson')
   .then(response => response.json())
   .then(data => {
     const customIcon = L.icon({
-      iconUrl: 'saude.png',
+      iconUrl: 'policia.png',
       iconSize: [32, 32],
       iconAnchor: [16, 32],
       popupAnchor: [0, -32]
@@ -54,13 +54,13 @@ fetch('saude.geojson')
       }
     }).addTo(map);
   })
-  fetch('postopolicial.geojson')
+   fetch('saude.geojson')
   .then(response => response.json())
   .then(data => {
     const customIcon = L.icon({
-      iconUrl: 'policia.png',
-      iconSize: [16, 16],
-      iconAnchor: [8, 16],
+      iconUrl: 'saude.png',
+      iconSize: [32, 32],
+      iconAnchor: [16, 32],
       popupAnchor: [0, -32]
     });
     
