@@ -33,17 +33,7 @@
 		<button class="dropdown-link" onclick="openTab(event, 'NaturezaMar')">Natureza Mar</button>
         <button class="dropdown-link" onclick="openTab(event, 'Restauracao')"> Restauração</button>
 		 <button class="dropdown-link" onclick="openTab(event, 'Estadia')"> Estadia</button>
-		 <button class="dropdown-link" onclick="openTab(event, 'Sevicos')">Seviços</button>
-    </div>
-</div>
-<div class="tab-dropdown">
-<button class="tab-button" onclick="toggleDropdownMenu('sobreDropdown')">Sobre ▾</button>
-    <div id="sobreDropdown" class="dropdown-content">
-        <button class="dropdown-link" onclick="openTab(event, 'Informacoes')">Informações Matutuine</button>
-		<button class="dropdown-link" onclick="openTab(event, 'Espaço Visitante')">Espaço Visitante</button>
-		 </div>
-	 </div>
-  
+		 <button class="dropdown-link" onclick="openTab(event, 'Sevicos')">Seviços</button>    </div></div>
   </div>
      <div id="home" class="tab-content active">
         <!-- Carrossel de Imagens -->
@@ -193,8 +183,8 @@ Além disso, Matutuíne possui potencial para o ecoturismo, agricultura ecológi
 </div>
 <div id="PatrimonioMunicipal" class="tab-content">
 <div class="conteudo-texto">
- <p>Matutuíne é um palco vivo de expressões culturais. Danças, músicas, 
- tradições orais e artefatos contam histórias que atravessam gerações. Nesta seção, explore os pontos culturais que dão alma ao distrito.</p>
+ <p>O distrito de Matutuíne possui um vasto legado histórico e cultural, evidenciado por igrejas centenárias. Estes patrimônios representam não apenas a história local, mas também a diversidade cultural da região. No mapa, é possível visualizar a localização destes pontos de interesse, que revelam a identidade do território e oferecem ao visitante uma experiência de conexão com as raízes locais. 
+    A preservação e valorização desses espaços são fundamentais para o fortalecimento do turismo cultural em Matutuíne.</p>
  <iframe src="patrimonio.html" style="width: 100%; height: 600px; border: none;"></iframe>
 </div>
 </div>
@@ -234,39 +224,57 @@ Além disso, Matutuíne possui potencial para o ecoturismo, agricultura ecológi
 </div>
 <div id="Estadia" class="tab-content">
 <div class="conteudo-texto">
- <p>Seja em casas locais, eco-lodges ou zonas de acampamento, Matutuíne oferece estadias acolhedoras para quem quer descansar com autenticidade.</p>
+ <p>A oferta de alojamentos em Matutuíne vai desde hospedagens simples e comunitárias até resorts ecológicos e hotéis de luxo. Estes estabelecimentos estão estrategicamente distribuídos ao longo do litoral, junto a parques naturais e próximos às principais atrações turísticas. No mapa interativo, os visitantes podem explorar os locais disponíveis para estadia, facilitando o planejamento da viagem com base na localização, proximidade a pontos turísticos e acessibilidade.
+     A integração entre turismo e comunidade local torna cada estadia uma experiência autêntica.</p>
  <iframe src="estadia.html" style="width: 100%; height: 600px; border: none;"></iframe>
 </div>
 </div>
 <div id="Sevicos" class="tab-content">
 <div class="conteudo-texto">
- <p>Matutuíne também se encontra nos espaços de convívio. Descubra praças, mercados e campos que movimentam a vida comunitária.</p>
+ <p>Para garantir uma experiência segura e confortável, o mapa também apresenta a localização de serviços essenciais como posto policial, centros de saúde e bombas de combustivel. Estes serviços estão posicionados em zonas estratégicas para dar apoio tanto a turistas nacionais quanto estrangeiros. 
+    Ter acesso visual a esses pontos facilita a navegação no território e contribui para uma estadia mais tranquila e organizada.</p>
 </div>
-<iframe src="servicos.html" style="width: 100%; height: 600px; border: none;"></iframe>
-</div>
-<div id="Informacoes" class="tab-content">
-<div class="conteudo-texto">
-  <h2 class="texto-centralizado">Informações Meteorológicas</h2>
+<iframe src="servicos.html" style="width: 100%; height: 600px; border: none;"></iframe></div>
+<!-- fim do web-->
+<footer style="background-color: #f4f4f4; padding: 40px 20px; font-family: Arial, sans-serif; font-size: 14px; color: #333;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 30px;">
+    
+    <div style="flex: 1; min-width: 150px; margin-right: 20px;">
+      <h4 style="border-bottom: 1px dashed #999; padding-bottom: 5px; margin-bottom: 10px;">Visitantes</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="#">Mapa do Site</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Sobre</a></li>
+      </ul>
+    </div>
+
+    <div style="flex: 1; min-width: 150px; margin-right: 20px;">
+      <h4 style="border-bottom: 1px dashed #999; padding-bottom: 5px; margin-bottom: 10px;">Fale Connosco</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="#">Contactos</a></li>
+        <li><a href="#">Reportar Problema</a></li>
+        <li><a href="#">Sugestões</a></li>
+      </ul>
+    </div>
+
+    <div style="flex: 1; min-width: 150px; margin-right: 20px;">
+      <h4 style="border-bottom: 1px dashed #999; padding-bottom: 5px; margin-bottom: 10px;">Empresas</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="#">Vantagens</a></li>
+        <li><a href="#">Registar Empresa</a></li>
+      </ul>
+    </div>
+
   </div>
-  <iframe
-    src="https://forecast7.com/pt/26d02n32d58/matutuine/?unit=us"
-    frameborder="0"
-    width="100%"
-    height="250"
-    style="border:0; overflow:hidden;"
-    allowtransparency="true"
-    scrolling="no">
-  </iframe>
-</div>
-<div id="Espaço Visitante" class="tab-content">
-<div class="conteudo-texto">
- <p>nn</p>
- </div>
-</div>
 
-</section>
+  <div style="text-align: center; margin-bottom: 20px;">
+    <!-- Substituir pelos teus logos -->
+    <img src="emblema.png" alt="Logo 1" style="height: 40px; margin: 0 10px;" />
+  </div>
 
-</body>
-</html>
-
+  <div style="text-align: center; font-size: 13px; color: #666;">
+    <p>Copyright © 2025 - Visit Matutuíne</p>
+  </div>
+</footer>
 
