@@ -1,20 +1,117 @@
-<!-- patrimonio.html -->
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <title>Mapa Patrimônio</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <style>
-        #map {
-            height: 100vh;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapa Natureza Terra</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    body {
+      display: flex;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    #search-container {
+      width: 300px;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+
+    #map {
+      flex-grow: 1;
+      height: 100vh;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 8px;
+      width: 100%;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-    <div id="map" style="height: 300px; width: 100%; max-width: 800px; margin: 0 auto;"></div>
 
-    <script src="terra.js"></script>
+  <div id="search-container">
+    <h3>Pesquisar Local</h3>
+    <input type="text" id="searchBox" placeholder="Digite o nome..." />
+    <button onclick="searchFeature()">Pesquisar</button>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([-26.05, 32.59], 10);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+   L.control.scale({
+  position: 'bottomleft',
+  metric: true,
+  imperial: false // Desativa milhas
+}).addTo(map);
+
+    let allFeatures = [];
+
+    function addGeoJSON(url, iconUrl = null) {
+      fetch(url)
+        .then(res => res.json())
+        .then(data => {
+          const icon = iconUrl ? L.icon({
+            iconUrl: iconUrl,
+            iconSize: [32, 32],
+            iconAnchor: [16, 32],
+            popupAnchor: [0, -32]
+          }) : null;
+
+          const layer = L.geoJSON(data, {
+            pointToLayer: function (feature, latlng) {
+              return icon ? L.marker(latlng, { icon: icon }) : L.marker(latlng);
+            },
+            onEachFeature: function (feature, layer) {
+              layer.bindPopup(`<strong>${feature.properties.nome}</strong><br>${feature.properties.descricao}`);
+              allFeatures.push({ feature, layer });
+            }
+          }).addTo(map);
+        });
+    }
+
+    // Adiciona todas as camadas
+    addGeoJSON('pnmat.geojson', 'reserva.png');
+    addGeoJSON('lagos.geojson'); // sem ícone personalizado
+    addGeoJSON('acampar.geojson', 'acampar.png');
+
+    function searchFeature() {
+      const query = document.getElementById('searchBox').value.toLowerCase();
+      const match = allFeatures.find(obj =>
+        obj.feature.properties.nome.toLowerCase().includes(query)
+      );
+
+      if (match) {
+        const { layer } = match;
+        map.setView(layer.getLatLng(), 15);
+        layer.openPopup();
+      } else {
+        alert("Nenhum ponto encontrado com esse nome.");
+      }
+    }
+  </script>
 </body>
 </html>
