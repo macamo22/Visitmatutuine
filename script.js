@@ -59,4 +59,17 @@ window.onclick = function(event) {
         });
     }
 };
+function openTab(evt, tabId) {
+  const tabs = document.querySelectorAll('.tab-content');
+  tabs.forEach(tab => tab.classList.remove('active'));
+
+  const target = document.getElementById(tabId);
+  if (target) {
+    target.classList.add('active');
+  }
+
+  const buttons = document.querySelectorAll('.tab-button');
+  buttons.forEach(btn => btn.classList.remove('active'));
+  evt.currentTarget.classList.add('active');
+}
 
