@@ -13,7 +13,7 @@
       "properties": {
         "id": 1,
         "nome": "Machangulo Beach Lodge",
-        "tipo": "Lodge e Hotel"
+        "descricao": "Lodge e Hotel"
       }
     },
     {
@@ -28,7 +28,7 @@
       "properties": {
         "id": 2,
         "nome": "BERMUGIS PLACE Restaurante boats",
-        "tipo": "Restaurante e Hotel"
+        "descricao": "Restaurante e Hotel"
       }
     },
     {
@@ -43,7 +43,7 @@
       "properties": {
         "id": 3,
         "nome": "7 Zungus Seafood Restaurante and Bar",
-        "tipo": "Restaurante e Bar"
+        "descricao": "Restaurante e Bar"
       }
     },
     {
@@ -58,7 +58,7 @@
       "properties": {
         "id": 4,
         "nome": "Sunset Shack",
-        "tipo": "Restaurante"
+        "descricao": "Restaurante"
       }
     },
     {
@@ -73,7 +73,7 @@
       "properties": {
         "id": 5,
         "nome": "La Familia Bar and Barbeque",
-        "tipo": "Bar"
+        "descricao": "Bar"
       }
     },
     {
@@ -88,7 +88,7 @@
       "properties": {
         "id": 6,
         "nome": "Amigos Restaurante e Bar",
-        "tipo": "Restaurante e Bar"
+        "descricao": "Restaurante e Bar"
       }
     },
     {
@@ -103,7 +103,7 @@
       "properties": {
         "id": 7,
         "nome": "Alex Pizza Place",
-        "tipo": "Pizzaria"
+        "descricao": "Pizzaria"
       }
     },
     {
@@ -118,7 +118,7 @@
       "properties": {
         "id": 8,
         "nome": "Mermaids Cove",
-        "tipo": "Restaurante"
+        "descricao": "Restaurante"
       }
     },
     {
@@ -133,7 +133,7 @@
       "properties": {
         "id": 9,
         "nome": "Crabs Snack Bar Restaurant",
-        "tipo": "Restaurante e Bar"
+        "descricao": "Restaurante e Bar"
       }
     },
     {
@@ -148,7 +148,7 @@
       "properties": {
         "id": 10,
         "nome": "BullShit Malongane",
-        "tipo": "Restaurante"
+        "descricao": "Restaurante"
       }
     },
     {
@@ -163,7 +163,7 @@
       "properties": {
         "id": 11,
         "nome": "Paulos Bar Grelhada",
-        "tipo": "Restaunte e Churasqueira"
+        "descricao": "Restaunte e Churasqueira"
       }
     },
     {
@@ -178,7 +178,7 @@
       "properties": {
         "id": 12,
         "nome": "Lourencos Bar and Shop",
-        "tipo": "Restaurante"
+        "descricao": "Restaurante"
       }
     },
     {
@@ -193,7 +193,7 @@
       "properties": {
         "id": 13,
         "nome": "MoZbevok Bar and Restaurant",
-        "tipo": "Restaurante e Bar"
+        "descricao": "Restaurante e Bar"
       }
     },
     {
@@ -208,7 +208,7 @@
       "properties": {
         "id": 14,
         "nome": "Ninhos Restaurant and Bar",
-        "tipo": "Restaurante e Bar"
+        "descricao": "Restaurante e Bar"
       }
     },
     {
@@ -223,7 +223,7 @@
       "properties": {
         "id": 15,
         "nome": "Captain Gus Bar and Restaurant",
-        "tipo": "Restaurante e Bar"
+        "descricao": "Restaurante e Bar"
       }
     },
     {
@@ -238,7 +238,7 @@
       "properties": {
         "id": 16,
         "nome": "Nosso Ambiente",
-        "tipo": "Restaurante"
+        "descricao": "Restaurante"
       }
     },
     {
@@ -253,7 +253,7 @@
       "properties": {
         "id": 17,
         "nome": "Restaurante e Bar Jupiter",
-        "tipo": "Restaurante e Bar"
+        "descricao": "Restaurante e Bar"
       }
     },
     {
@@ -268,7 +268,7 @@
       "properties": {
         "id": 18,
         "nome": "The Melting Port",
-        "tipo": "Restaurante"
+        "descricao": "Restaurante"
       }
     },
     {
@@ -283,7 +283,7 @@
       "properties": {
         "id": 19,
         "nome": "Ponta Restaurante",
-        "tipo": "Restaurante"
+        "descricao": "Restaurante"
       }
     },
     {
@@ -298,7 +298,7 @@
       "properties": {
         "id": 20,
         "nome": "Restaurante Barraca da Praia na Ponta do Ouro",
-        "tipo": "Restaurante"
+        "descricao": "Restaurante"
       }
     }
   ]
