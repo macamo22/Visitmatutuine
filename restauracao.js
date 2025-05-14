@@ -1,6 +1,8 @@
 // Inicia o mapa
 var map = L.map('map').setView([-26.05, 32.59], 10);
 
+
+
 // Fundo do mapa
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '© OpenStreetMap'
@@ -30,4 +32,3 @@ fetch('restaurante.geojson')
     }).addTo(map);
   })
   .catch(error => console.error('Erro ao carregar GeoJSON:', error));
-  
