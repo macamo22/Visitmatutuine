@@ -32,3 +32,4 @@ fetch('costa.geojson')
     }).addTo(map);
   })
   .catch(error => console.error('Erro ao carregar GeoJSON:', error));
+  
